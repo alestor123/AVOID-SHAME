@@ -1,0 +1,79 @@
+{
+  "name": "avoid-shame",
+  "version": "1.0.0",
+  "description": "This is a simple code for avoiding console shaming",
+  "main": "App.js",
+  "funding": "https://alestor123.is-a.dev/donate",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec",
+    "example": "node run.js",
+    "lint": "standard . --fix"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "App.js",
+    "cli.js",
+    "opt.js",
+    "assets/man/help.man"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "command-line",
+    "node",
+    "nodejs",
+    "terminal",
+    "term",
+    "tool",
+    "log",
+    "logger",
+    "module",
+    "exclude",
+    "filter",
+    "devtools",
+    "devtool",
+    "filter methods",
+    "every",
+    "fs",
+    "beautify",
+    "code-quality",
+    "pretty",
+    "ouch",
+    "whoops",
+    "beautify",
+    "javascript",
+    "awesome",
+    "github",
+    "remove",
+    "string",
+    "regex",
+    "shame",
+    "regex",
+    "console.log",
+    "console",
+    "detect",
+    "console filter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/AVOID-SHAME.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/AVOID-SHAME/issues"
+  },
+  "homepage": "https://github.com/alestor123/AVOID-SHAME#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tap": "^15.0.9",
+    "tap-spec": "^5.0.0"
+  }
+}
